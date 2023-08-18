@@ -1,12 +1,13 @@
 $primary-color: #333;
-$secondary-color: #fff;t
+$secondary-color: transparent;
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: rgb(41, 34, 34);
-  background-image: url(/sunny.jpg);
+  background-image: url('/sunny.jpg');
+  background-attachment: fixed;
 }
 
 header {
@@ -44,8 +45,10 @@ h1, h2 {
 }
 
 p {
-  color: #666;
+  color: #000000;
   background-color: $secondary-color;
+  font-style:italic;
+  font-size: medium;
 }
 
 a {
