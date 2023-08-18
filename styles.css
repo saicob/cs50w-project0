@@ -40,7 +40,7 @@ h1, h2 {
 p {
   color: #000000;
   background-color: transparent;
-  font-style: italic;
+  font-style: unset;
   font-size: medium;
 }
 
