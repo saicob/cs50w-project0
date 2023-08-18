@@ -9,7 +9,6 @@ body {
 
 header {
   background-color: #333;
-  color: transparent;
   padding: 20px;
 }
 
@@ -22,24 +21,25 @@ nav ul li {
   margin-right: 10px;
 }
 nav ul li a {
-  color: transparent;
+  color: #fff;
   text-decoration: none;
 }
 
 section {
-  background-color: transparent;
+  background-color: #fff;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #000;
   font-style: oblique;
 }
 
 p {
   color: #000000;
-  background-color: transparent;
+  background-color: #fff;
   font-style: italic;
   font-size: medium;
 }
